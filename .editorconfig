@@ -1,0 +1,23 @@
+# http://editorconfig.org
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{tsx,ts}]
+charset = utf-8
+
+# Indentation style
+# Possible values - tab, space
+[*]
+indent_style = space
+
+# Indentation size in single-spaced characters
+# Possible values - an integer, tab
+indent_size = 2
+
+# Line ending file format
+# Possible values - lf, crlf, cr
+end_of_line = lf
+
+# Denotes whether to trim whitespace at the end of lines
+# Possible values - true, false
+trim_trailing_whitespace = true
