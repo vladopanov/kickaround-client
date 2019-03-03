@@ -1,16 +1,21 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-import "./styles/site.css";
+import 'babel-polyfill';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './styles/site.css';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { store } from './store/store';
+import { Provider } from 'react-redux';
+import App from './components/App';
+import { ErrorBoundary } from './components/common';
 
-interface IProps {
-  name: string;
-}
+// import { configureFakeBackend } from './helpers';
+// configureFakeBackend();
 
-class App extends React.Component<IProps> {
-  public render() {
-    return <div>Hello {this.props.name}</div>;
-  }
-}
-
-const mountNode = document.getElementById("app");
-ReactDOM.render(<App name="Jane" />, mountNode);
+ReactDOM.render(
+  <ErrorBoundary>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </ErrorBoundary>,
+  document.getElementById('root')
+);

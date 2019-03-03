@@ -12,38 +12,67 @@
       ]
     },
     "array-type": {
-      "options": [ "array-simple" ]
+      "options": [
+        "array-simple"
+      ]
     },
     "arrow-parens": false,
     "arrow-return-shorthand": true,
     "ban-types": {
       "options": [
-        [ "Object", "Avoid using the `Object` type. Did you mean `object`?" ],
-        [ "Function", "Avoid using the `Function` type. Prefer a specific function type, like `() => void`." ],
-        [ "Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?" ],
-        [ "Number", "Avoid using the `Number` type. Did you mean `number`?" ],
-        [ "String", "Avoid using the `String` type. Did you mean `string`?" ],
-        [ "Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?" ]
+        [
+          "Object",
+          "Avoid using the `Object` type. Did you mean `object`?"
+        ],
+        [
+          "Function",
+          "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
+        ],
+        [
+          "Boolean",
+          "Avoid using the `Boolean` type. Did you mean `boolean`?"
+        ],
+        [
+          "Number",
+          "Avoid using the `Number` type. Did you mean `number`?"
+        ],
+        [
+          "String",
+          "Avoid using the `String` type. Did you mean `string`?"
+        ],
+        [
+          "Symbol",
+          "Avoid using the `Symbol` type. Did you mean `symbol`?"
+        ]
       ]
     },
     "callable-types": true,
     "class-name": true,
     "comment-format": {
-      "options": [ "check-space" ]
+      "options": [
+        "check-space"
+      ]
     },
-    "curly": [ true, "ignore-same-line" ],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
     "cyclomatic-complexity": false,
     "eofline": false,
     "forin": true,
     "import-spacing": true,
     "indent": {
-      "options": [ "spaces" ]
+      "options": [
+        "spaces"
+      ]
     },
     "interface-over-type-literal": true,
     "jsdoc-format": true,
     "label-position": true,
     "max-classes-per-file": {
-      "options": [ 3 ]
+      "options": [
+        3
+      ]
     },
     "member-access": true,
     "member-ordering": {
@@ -58,7 +87,11 @@
     "no-bitwise": false,
     "no-conditional-assignment": true,
     "no-consecutive-blank-lines": true,
-    "no-console": [ "log", "info" ],
+    "no-console": [
+      true,
+      "log",
+      "info"
+    ],
     "no-construct": true,
     "no-debugger": true,
     "no-duplicate-super": true,
@@ -72,7 +105,7 @@
     "no-parameter-properties": false,
     "no-reference": true,
     "no-reference-import": true,
-    "no-shadowed-variable": true,
+    "no-shadowed-variable": false,
     "no-string-literal": true,
     "no-string-throw": true,
     "no-switch-case-fall-through": false,
@@ -85,7 +118,9 @@
     "no-var-keyword": true,
     "no-var-requires": false,
     "object-literal-key-quotes": {
-      "options": [ "consistent-as-needed" ]
+      "options": [
+        "consistent-as-needed"
+      ]
     },
     "object-literal-shorthand": false,
     "object-literal-sort-keys": false,
@@ -99,7 +134,9 @@
       ]
     },
     "one-variable-per-declaration": {
-      "options": [ "ignore-for-loop" ]
+      "options": [
+        "ignore-for-loop"
+      ]
     },
     "only-arrow-functions": false,
     "ordered-imports": false,
@@ -113,7 +150,9 @@
     },
     "radix": true,
     "semicolon": {
-      "options": [ "always" ]
+      "options": [
+        "always"
+      ]
     },
     "space-before-function-paren": {
       "options": {
@@ -126,7 +165,9 @@
     },
     "trailing-comma": false,
     "triple-equals": {
-      "options": [ "allow-null-check" ]
+      "options": [
+        "allow-null-check"
+      ]
     },
     "typedef": false,
     "typedef-whitespace": {
